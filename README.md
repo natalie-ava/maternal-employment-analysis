@@ -58,14 +58,14 @@ All data cleaning, variable recoding, and model estimation were conducted in **S
 
 ## Repository Contents
 
-**code/**  
+[**code/**](https://github.com/natalie-ava/maternal-employment-analysis/tree/main/code)
 Stata script containing all data transformations and regression models.
 
-**docs/**  
+[**docs/**](https://github.com/natalie-ava/maternal-employment-analysis/tree/main/docs)
 Full research paper and presentation slides.
 
-**outputs/**  
-Example regression results and figures.
+[**outputs/**](https://github.com/natalie-ava/maternal-employment-analysis/tree/main/outputs)
+Regression results and figures.
 
 ---
 
