@@ -1,7 +1,15 @@
 # Maternal Labor Force Participation: United States vs Mexico
+**Question:** How do family structure and child characteristics influence maternal labor force participation in the United States and Mexico?
+
+**Method:** Logistic regression
+
+**Data:** 2020 IPUMS International census microdata
+
+**Tools:** Stata, econometric modeling
+
 ## Overview
 
-This project analyzes how family structure and child characteristics influence maternal labor force participation in the United States and Mexico.
+This project examines how family structure and child characteristics influence maternal labor force participation in the United States and Mexico.
 
 Using 2020 IPUMS census microdata, I estimate logistic regression models to examine how fertility, child age, marital status, and education affect the likelihood that mothers participate in the labor force.
 
@@ -33,41 +41,51 @@ Independent variables:
 - Age
 
 All data cleaning, variable recoding, and model estimation were conducted in **Stata**.
+## Model Results
+
+The following logistic regression models estimate the probability that mothers participate in the labor force based on family structure, education, and age.
+
+### United States
+
+![U.S. Logistic Regression Results](outputs/US_logit_results.png)
+
+### Mexico
+
+![Mexico Logistic Regression Results](outputs/MEX_logit_results.png)
 ## Key Findings
 
-• Each additional child reduces the probability that a mother participates in the labor force.
+- Each additional child reduces the probability that a mother participates in the labor force.
 
-• The negative effect of additional children is **stronger in the United States** than in Mexico.
+- The negative effect of additional children is **stronger in the United States** than in Mexico.
 
-• Having an eldest child age 13 or older is associated with a higher likelihood of employment in both countries.
+- Having an eldest child age 13 or older is associated with a higher likelihood of employment in both countries.
 
-• Higher education strongly increases employment likelihood in both models.
+- Higher education strongly increases employment likelihood in both models.
 
-• The interaction between marital status and older children differs across countries, suggesting that household structure shapes employment decisions differently in the United States and Mexico.
+- The interaction between marital status and older children differs across countries, suggesting that household structure shapes employment decisions differently in the United States and Mexico.
 
----
+## Skills Demonstrated
 
-## Tools Used
-
-- Stata
-- Logistic regression
-- IPUMS International microdata
+- Logistic regression modeling
+- Econometric analysis
+- Large-scale microdata analysis 
 - Data cleaning and variable recoding
-
----
+- Cross-country statistical comparison
+- Stata programming
 
 ## Repository Contents
 
 [**code/**](https://github.com/natalie-ava/maternal-employment-analysis/tree/main/code)
+
 Stata script containing all data transformations and regression models.
 
 [**docs/**](https://github.com/natalie-ava/maternal-employment-analysis/tree/main/docs)
+
 Full research paper and presentation slides.
 
 [**outputs/**](https://github.com/natalie-ava/maternal-employment-analysis/tree/main/outputs)
-Regression results and figures.
 
----
+Regression results and figures.
 
 ## Note
 
